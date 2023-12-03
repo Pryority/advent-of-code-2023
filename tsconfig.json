@@ -12,6 +12,9 @@
     "resolveJsonModule": true,
     "types": ["node", "@types/jest"],
     "typeRoots" : ["./node_modules/@types"],
+    "paths": {
+      "@/*": ["./*"]
+    },
   },
   "include": [
     "src/**/*"
